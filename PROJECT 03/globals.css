@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Calibri";
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(211, 200, 200);
+}
+.contacts{
+    margin: 0;
+    position: relative;
+    display: flex;
+}
+.contact-container{
+    height: 280px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 140px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 5px;
+}
+.card-contact>img{
+    height: 150px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 27px;
+}
+.contact-info,.contact-info2{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.contact-info>img{
+    height: 20px;
+    margin-top: 15px;
+}
+.contact-info2>img{
+    height: 20px;
+    margin-top: 3px;
+}
+.person-name{
+    color: #000;
+    margin-left: 30px;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.person-phone{
+    color: #000;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.person-email{
+    color: #000;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.contact-list{
+    display: flex;
+    flex-wrap: wrap;
+}
