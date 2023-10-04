@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+    color: white;
+}
+html,body{
+    height: 130vh;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1337552487/vector/abstract-hexagon-texture-background-blue-and-orange-color.jpg?s=612x612&w=0&k=20&c=CTStBq8hqPkv9pcfRFpwcL4658tGZuJSRgI7cpsKSnY=);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    height: 40px;
+    width: 42%;
+    background-color: #FF4637;
+    margin-left: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.nav-img{
+    height: 40px;
+}
+.nav-text{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.journal-container{
+    margin-left: 24rem;
+    width: 42%;
+    background-color: white;
+    display: flex;
+}
+.img-container>img{
+    height: 200px;
+    border-radius: 5px;
+    margin: 0px 35px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.location>img{
+    height: 10px;
+}
+.location>h5{
+    margin-left: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+}
+.location>a{
+    font-size: 13px;
+    margin-left: 15px;
+    color: gray;
+}
+.mountain-name{
+    font-weight: 900;
+    color: #000;
+}
+.date-container{
+    font-size: 12px;
+    margin-top: 12px;
+}
+.travel-date{
+   color: #000;
+}
+.travel-date>span{
+    margin:0px 3px;
+    color: #000;
+}
+.description-text{
+    font-size: 15px;
+    width: 330px;
+    margin-top: 10px;
+    color: #817474;
+    font-weight: 100;
+}
+.travel-list{
+    display: flex;
+    flex-direction: column;
+}
