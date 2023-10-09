@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+    color: white;
+}
+html,body{
+    height: 130vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.nav{
+    height: 50px;
+    width: 46%;
+    background: linear-gradient(90deg,#721A92 1.18%,#A626D3 100%);
+    margin-left: 23rem;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+} 
+.troll-face{
+  height: 40px;
+  margin-left: 10px;
+}
+.meme-text{
+    font-size: 20px;
+    margin-left: 6px;
+}
+.course{
+    margin-left: 10rem;
+}
+.meme-container{
+    margin-left: 23rem;
+    background-color: white;
+    width: 38.79rem;
+    height: auto;
+    padding: 44px;
+}
+.input1{
+    padding: 5px 10px;
+    width: 16rem;
+}
+.input2{
+    padding: 5px 10px;
+    width: 16rem;
+    margin-left: 20px;
+}
+.get-meme-button{
+    background: linear-gradient(90deg,#672280 1.18%,#A626D3 100%);
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    width: 33.3rem;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.meme-image{
+  max-width: 100%;
+}
+.meme{
+    position: relative;
+}
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
