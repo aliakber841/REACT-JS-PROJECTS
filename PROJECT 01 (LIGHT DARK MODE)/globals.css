@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 30px 25px;
+    height: 80px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+nav.dark{
+    background-color: #21222A;
+}
+.nav-left{
+    display: flex; 
+    align-items: center;
+}
+.nav-left>h1{
+    padding-left: 7px;
+    color: #61DAFB;
+}
+.nav-left>img{
+    height: 60px; 
+}
+.nav-right{
+    display: flex;
+   align-items: end;
+   justify-content: center;
+}
+p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.toggler{
+    width: 25px;
+    height: 13px;
+    background-color: black;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+.toggler-circle{
+    height: 13px;
+    width: 13px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+nav.dark .toggler {
+    border-color: white;
+    background-color: #F5F5F5;
+}
+
+.toggler-circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav.dark .toggler-circle {
+    background-color: black;
+}
+
+.toggler-light {
+    color: black;
+}
+
+nav.dark .toggler-light {
+    color: #918E9B;
+}
+
+.toggler-dark {
+    color: black;
+}
+
+nav.dark .toggler-dark {
+    color: #FFFFFF;
+}
+
+nav.dark .toggler {
+    justify-content: flex-end;
+}
+
+.main-img{
+margin-left: 40rem;
+height: 200px;
+margin-top: 5rem;
+}
+
+main{
+ display: flex;
+ flex-direction: row;
+  padding: 57px 27px; 
+  background-repeat: no-repeat;
+  background-position: right center;
+  flex: 1 1 auto;
+  background-color: white;
+  color: #2B283A;
+}
+main.dark{
+    background-color: #21222A;
+    color: white;    
+}
+.react-title{
+    padding: 3vw 0vw;
+    padding-left: 2vw;
+}
+.main-facts{
+padding-left: 5.8vw;
+}
+li{
+    padding-bottom: 1vw;
+    width: 400px;
+}
+li::marker{
+    color: #61DAFB;
+    font-size: 1.4rem;
+}
