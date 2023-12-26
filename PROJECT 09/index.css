@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: General Sans;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.container1,.container3{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.toggle-container,.reducer-container{
+  width: 50vw;
+  height: 100vh;
+ padding: 5rem;
+ padding-left: 11rem;
+ color: white;
+ background-color: rgb(62, 23, 112);
+}
+.btn{
+  margin-left: 5rem;
+  margin-top: 2rem;
+  padding: 25px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.stuff{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.fetch-container{
+  width: 50vw;
+  height: 100vh;
+  padding: 5rem;
+  padding-left: 11rem;
+ color: black;
+}
+.fetch-container h2{
+  font-size: 20px;
+}
+.loading,.error{
+   margin: 100px;
+   margin-left: 220px;
+}
+.container2{
+  width: 100vw;
+  height: 20vh;
+}
+.context-container{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.context-links{
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.context-links a{
+  padding-right: 20px;
+  text-decoration: none;
+  padding-top: 4px;
+}
+.context-end{
+ margin-left: 37rem;
+ margin-top: 0;
+}
+.logout{
+  margin-left: 30px;
+  background-color: blueviolet;
+  border: none;
+  padding:10px;
+  color: white;
+  border-radius: 10%;
+}
+.user-login{
+  display: flex;
+}
+.reducer-container{
+  padding: 3rem;
+  padding-left: 15rem;
+}
+.reducer-container button{
+  background-color: rgb(185, 255, 22);
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+.reducer-container h4{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.toast button{
+  padding: 20px;
+  border: none;
+  margin: 40px;
+  border-radius: 10%;
+  background-color: lightseagreen;
+  color: floralwhite;
+}
