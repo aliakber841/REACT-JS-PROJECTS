@@ -36,3 +36,6 @@ https://aliakber841-react-project-10.netlify.app/
 
 (11) TAILWIND CSS COURSE
 https://aliakber841-tailwindcss-course.netlify.app/
+
+(12) KFC APP
+https://kfc-react-app.netlify.app/
