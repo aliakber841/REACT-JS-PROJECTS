@@ -39,3 +39,6 @@ https://aliakber841-tailwindcss-course.netlify.app/
 
 (12) KFC APP
 https://kfc-react-app.netlify.app/
+
+(13) ROTATING CYLINDER
+https://aliakber841-rotating-cylinder.netlify.app/
