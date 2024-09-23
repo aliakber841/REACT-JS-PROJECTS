@@ -1,0 +1,37 @@
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
+
+#root{
+    position: fixed;
+    background-color: black;
+}
+
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.nav-img{
+    height: 90px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.nav-left{
+    width: 50%;
+}
+.nav-right{
+    margin-left: 330px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-right a{
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
