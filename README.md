@@ -42,3 +42,6 @@ https://kfc-react-app.netlify.app/
 
 (13) ROTATING CYLINDER
 https://aliakber841-rotating-cylinder.netlify.app/
+
+(14) APPLE MAC LANDING
+https://aliakber841-mac-landing.netlify.app/
