@@ -69,7 +69,7 @@ const Bucket = ({ items }) => {
             {items.length} Item(s) | Aed{" "}
             {(subTotal + gst + deliveryFee).toFixed(2)}
           </span>
-          <Link to="http://kfc-uae.kesug.com/?i=1" className="checkout-button">
+          <Link to="#" className="checkout-button">
             Checkout ➔
           </Link>
         </div>
